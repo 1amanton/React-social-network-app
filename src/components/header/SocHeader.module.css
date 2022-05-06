@@ -1,0 +1,18 @@
+.nav {
+    height: 60px;
+    font-size: 24px;
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    grid-area: h;
+
+}
+.list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+

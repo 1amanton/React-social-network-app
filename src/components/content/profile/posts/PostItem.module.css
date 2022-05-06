@@ -1,0 +1,58 @@
+.item {
+    padding: 8px;
+    background-color: lightsteelblue;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.user {
+    display: flex;
+    gap: 12px;
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 8px;
+}
+
+.text {
+    margin-left: 16px;
+}
+
+.btns {
+    display: flex;
+    gap: 8px;
+}
+
+.icon {
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: pink;
+    cursor: pointer;
+}
+
+.counter {
+    font-weight: bold;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+}

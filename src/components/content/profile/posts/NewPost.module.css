@@ -1,0 +1,14 @@
+.text {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 12px;
+    padding: 6px;
+}
+
+.text::placeholder {
+    text-align: start;
+}
+
+.btn__right {
+    float: right;
+}

@@ -1,0 +1,10 @@
+.btn {
+    padding: 12px 24px;
+    background-color: chartreuse;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: limegreen;
+}

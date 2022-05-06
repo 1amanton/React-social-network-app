@@ -1,0 +1,11 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.username {
+    font-weight: bold;
+    margin-bottom: 16px;
+}
