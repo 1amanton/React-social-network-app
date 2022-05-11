@@ -10,7 +10,7 @@ const PostItem = (props) => {
                 </div>
                 <div className={classes.author}>
                     <div>UserName</div>
-                    <div>Date</div>
+                    <div>{props.date}</div>
                 </div>
             </div>
 

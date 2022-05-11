@@ -1,21 +1,27 @@
 import React from 'react';
 import classes from "./SocSidebar.module.css";
+import {NavLink} from "react-router-dom";
 
 const SocSidebar = () => {
     return (
         <div className={classes.sidebar}>
-            <div className={`${classes.item} ${classes.active}`}>
-                Profile
-            </div>
             <div className={classes.item}>
-                Messages
+                <NavLink to="/">Profile</NavLink>
             </div>
+
             <div className={classes.item}>
-                News
+                <NavLink to="/dialogs">Messages</NavLink>
             </div>
+
             <div className={classes.item}>
-                Music
+                <NavLink to="/news">News</NavLink>
             </div>
+
+            <div className={classes.item}>
+                <NavLink to="/music">Music</NavLink>
+            </div>
+
+
         </div>
     );
 };
